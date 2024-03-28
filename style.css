@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.body {
+    background-color: black;
+}
+
+.body .navbar {
+    padding-top: 54px;
+    column-gap: 200px;
+}
+
+.body .navbar .logo {
+    padding-left: 80px;
+}
+
+.body .navbar .list {
+    column-gap: 66px;
+}
+
+.body .navbar .list .item {
+    color: white;
+    font-weight: 600;
+}
+
+.body .navbar .list .item:active {
+    text-decoration-color: yellow;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 4px;
+}
+
+.body .navbar .list .contact {
+    font-weight: 600;
+    padding: 10px 28px;
+}
+
+.intro {}
+
+.intro .main {
+    width: 739px;
+    height: 656px;
+    padding-right: 25px;
+}
