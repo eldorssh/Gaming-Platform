@@ -29,6 +29,8 @@
 }
 
 .body .navbar .list .item:active {
+    color: yellow;
+    transition: 1s;
     text-decoration-color: yellow;
     text-underline-offset: 7px;
     text-decoration-thickness: 4px;
@@ -39,7 +41,6 @@
     padding: 10px 28px;
 }
 
-.intro {}
 
 .intro .main {
     width: 739px;
